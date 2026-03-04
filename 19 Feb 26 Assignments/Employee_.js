@@ -29,7 +29,22 @@ const employees = [
 ];
 
 // 1.Insert new Emp at 2nd position
-
+employees.splice(1, 0, {
+  eno: 106,
+  name: "Rahul",
+  marks: [80, 85, 90],
+});
 
 // 2.Remove an emp with name "Kiran"
+let index = employees.findIndex(emp => emp.name === "Kiran");
+if (index !== -1) {
+  employees.splice(index, 1);
+}
+
 // 3.Change the last mark 95 to 75 of emp  "Sneha"
+let sneha = employees.find(emp => emp.name === "Sneha");
+if (sneha) {
+  sneha.marks[sneha.marks.length - 1] = 75;
+}
+
+console.log(employees);
