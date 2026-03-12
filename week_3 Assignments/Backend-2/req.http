@@ -1,0 +1,82 @@
+### user login
+POST http://localhost:4000/user-api/auth
+Content-Type: application/json
+
+{
+    "email":"latha@gmail.com",
+    "password":"latha"
+}
+
+### request for user app (req to protected 
+GET http://localhost:4000/user-api/users
+Cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhdGhhQGdtYWlsLmNvbSIsImlhdCI6MTc3Mjg3NzY2MywiZXhwIjoxNzcyODc3NzYzfQ.l9rBNb_hCI4qEn2xz-nS7aPfAdEjTv-J1l8wNUZSAJE
+
+### read by user (id) changed to by mail 
+GET http://localhost:4000/user-api/user
+
+
+###
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "username":"karthi",
+    "password":"karthi",
+    "email":"karthi@gmail.com",
+    "age":20
+}
+
+###
+PUT http://localhost:4000/user-api/users/69abf0daba8206d5a79efd5c
+Content-Type: application/json
+
+{
+    "username":"lathaeuyf",
+    "password":"latha16",
+    "email":"engililatha@gmail.com",
+    "age":38
+}
+
+
+###
+DELETE http://localhost:4000/user-api/users/69aa8b9a649b814eb3772011
+
+### add product to user cart
+PUT http://localhost:4000/user-api/cart/product-id/69b25d82d00c2cc1eca02d95
+###
+
+### request for product app
+GET http://localhost:4000/product-api/products
+
+### read by product id 
+GET http://localhost:4000/product-api/products
+
+
+###
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+    "productId":102,
+    "productName":"tv",
+    "price":15000,
+    "brand":"sony"
+}
+
+###
+PUT http://localhost:4000/product-api/products/69ab019cd5ef770cf06ef674
+Content-Type: application/json
+
+{
+    "productId":101,
+    "productName":"AC",
+    "price":20000,
+    "brand":"Bluestar"
+}
+
+###
+DELETE http://localhost:4000/product-api/products/69ab00f78d4873ce23cb734e
+
+
+
+
