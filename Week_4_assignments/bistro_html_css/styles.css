@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    /* to change color of background */
+    background-color: rgb(171, 244, 228); 
+}
+img{
+    /* to change the allignment of image */
+    display:block;
+    margin: auto;
+}
+h1{
+    /* to change the alignment of heading */
+    display: block;
+    text-align: center;
+
+    font-family: ;
+}
+div{
+    /* alignment */
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+h2{
+    color: red;
+}

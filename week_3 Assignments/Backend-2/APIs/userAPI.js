@@ -11,7 +11,7 @@ export const userApp = exp.Router()
 
 //user login
 userApp.post('/auth',async(req,res)=>{
-    //get user crerd obj from client
+    //get user cred obj from client
     const {email,password}=req.body;
     //verify email
     let user = await userModel.findOne({email:email})
