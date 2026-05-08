@@ -1,4 +1,4 @@
-# Week 5 - CSS Layouts, Tailwind CSS & React.js Introduction
+CSS Layouts, Tailwind CSS & React.js Introduction
 
 This week progresses from CSS layout techniques to modern frontend frameworks, covering Flexbox, Tailwind CSS, and React.js fundamentals.
 
