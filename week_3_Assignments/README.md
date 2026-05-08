@@ -1,4 +1,4 @@
-# Week 3 - Backend Development with Express, MongoDB & Authentication
+Backend Development with Express, MongoDB & Authentication
 
 This week focuses on building a full-featured backend API using Express.js, MongoDB (via Mongoose), and implementing user authentication with JWT.
 
