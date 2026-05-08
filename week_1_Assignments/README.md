@@ -1,4 +1,4 @@
-# Week 1 - JavaScript Fundamentals
+JavaScript Fundamentals
 
 This week covers the foundational concepts of JavaScript programming through hands-on practice exercises.
 
