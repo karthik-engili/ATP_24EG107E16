@@ -1,4 +1,4 @@
-# Week 2 - Advanced JavaScript & Backend Introduction
+Advanced JavaScript & Backend Introduction
 
 This week dives into advanced JavaScript concepts, modular programming, and introduces backend development with Node.js and Express.
 
