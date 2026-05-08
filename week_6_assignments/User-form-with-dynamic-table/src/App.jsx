@@ -7,7 +7,7 @@ function App(){
   return(
     <div>
       <Navigation/>
-      <div className="m-16 min-h-screen">
+      <div >
         <UserForm/>
       </div>
       <Footer/>
