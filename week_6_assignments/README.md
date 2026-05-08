@@ -1,4 +1,4 @@
-# Week 6 - React State Management, Context API & MERN Stack
+React State Management, Context API & MERN Stack
 
 This week focuses on advanced React concepts including state management, Context API, and building a full-stack MERN application.
 
