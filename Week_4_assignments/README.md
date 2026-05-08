@@ -1,4 +1,4 @@
-# Week 4 - HTML & CSS Fundamentals
+HTML & CSS Fundamentals
 
 This week covers the building blocks of web development — HTML structure, semantic elements, and CSS styling.
 
