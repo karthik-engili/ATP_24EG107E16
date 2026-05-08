@@ -1,4 +1,4 @@
-# Week 7 - MERN Capstone: Full-Stack Blog Application
+MERN Capstone: Full-Stack Blog Application
 
 This week is the capstone project — a complete full-stack MERN Blog Application inspired by Wattpad, where users can read articles and authors can publish content.
 
