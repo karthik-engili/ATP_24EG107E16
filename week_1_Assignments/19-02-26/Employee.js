@@ -2,6 +2,7 @@
 
 // Insertion Updation & Deletion of elements in array 
 
+// array of objects
 const employees = [
   {
     eno: 101,
@@ -49,4 +50,5 @@ if (sneha) {
   sneha.marks[sneha.marks.length - 1] = 75;
 }
 
+//final array of employees
 console.log(employees);
