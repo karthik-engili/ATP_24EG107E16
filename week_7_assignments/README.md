@@ -244,3 +244,6 @@ http://localhost:5173
 - Each project can be updated independently
 - Backend API documentation available in `*.http` test files
 - Frontend components are modular and reusable
+
+## DEPLOYMENT LINK
+   https://blog-app-frontend-one-psi.vercel.app/
